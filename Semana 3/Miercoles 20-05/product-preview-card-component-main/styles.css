@@ -1,0 +1,100 @@
+
+/* Fraunces */
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* Monteserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+#card {
+    background-color: white;
+    font-family: 'Montserrat';
+    width: 600px;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#cardimg {
+    width: 300px;
+    min-height: 300px;
+    background-image: url(./images/image-product-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#cardDescription {
+    padding: 1em 2em;
+}
+
+#cardprice {
+    display: flex;
+    align-items: center;
+    font-family: 'Fraunces';
+    gap: 20px;
+    margin-top: -30px;
+    margin-bottom: -10px;
+}
+
+#newprice {
+    font-size: 30px;
+    color: hsl(158, 36%, 37%);
+    font-weight: bold;
+}
+
+#oldprice {
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+}
+
+p {
+    color: hsl(228, 12%, 48%);
+}
+
+#category {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#productdescription {
+    line-height: 1.4;
+}
+
+button {
+    background-color: hsl(158, 36%, 37%);
+    width: 100%;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    p {
+        color: white;
+    }
+}
+
+button:hover {
+    background-color: hsl(158, 42%, 18%);
+}
+
+@media (max-width: 600px) {
+    #card {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,21 @@
+
+p {
+color: blue;
+background-color: aliceblue;
+font-size: 25px;
+/* font-weight: bold; */
+/* font-style: italic; */
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+text-align: justify;
+width: 400px;
+height: 400px;
+padding: 30px;
+margin-bottom: 300px;
+box-sizing: content-box;
+border: 10px solid  black;
+}
+
+h1 {
+color: purple;
+text-align: center;
+}

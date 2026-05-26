@@ -1,0 +1,23 @@
+button {
+    background-color: rgb(255, 224, 147);
+    border: 0;
+    border-radius: 4px;
+    padding: 20px 40px;
+    transition: background-color .3s;
+}
+
+button:hover {
+    background-color: rgb(211, 169, 65);
+}
+
+button:active {
+    background-color: rgb(245, 231, 194)
+}
+
+a:visited {
+    color: red;
+}
+
+a:link {
+    color: skyblue;
+}

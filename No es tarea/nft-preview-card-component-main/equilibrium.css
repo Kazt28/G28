@@ -1,0 +1,43 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#equi {
+    background-color: hsl(216, 50%, 16%);
+    width: 350px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+#equi_img {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+
+#equi_descr {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    color: white;
+    align-items: center;
+
+}
+
+.nft-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.creator {
+    align-items: center;
+}
